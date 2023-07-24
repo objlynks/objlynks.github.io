@@ -1,0 +1,37 @@
+<div (click)="onBackClick()" class="back-icon">
+  <app-back-icon></app-back-icon>
+</div>
+<span class="overlay"></span>
+<div class="container">
+  <div class="side1">
+    <h1 class="skill-header">ABOUT</h1>
+    <app-dp-logo height="13rem" width="13rem" class="dp-logo"></app-dp-logo>
+    <div class="text-container">
+      <p>
+        As a skilled and dynamic technical Business Manager, I possess 4 years of experience and expertise in different stacks of software engineering, 
+        and a track record of success in business management and leading cross-functional teams. 
+      </p>
+      <br>
+      <p>
+        I am skilled in leveraging technology to drive business growth and optimize operations. 
+
+      </p>
+      <br>
+      <p>
+       I possess extensive and vast experience in technology areas like Web Application Development, Mobile Application Development
+       cloud engineering and Project Management.
+      </p>
+    </div>
+  </div>
+  <div class="side2">
+    <div class="skill-container">
+      <h1 class="skill-header">
+        Skills
+      </h1>
+      <div *ngFor="let skill of skills">
+        <h4 class="skill-type">{{skill.type}}</h4>
+        <h4 class="skill-names">{{skill.names.join(', ')}}</h4>
+      </div>
+    </div>
+  </div>
+</div>
