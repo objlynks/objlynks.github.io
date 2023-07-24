@@ -1,6 +1,6 @@
 # My Portfolio Website :cupid: :sparkling_heart:
 
-[![Build Status](https://travis-ci.org/ritwickdey/ritwickdey.github.io.svg?branch=development)](https://travis-ci.org/ritwickdey/ritwickdey.github.io)
+[![Build Status](https://travis-ci.org/objlynks/objlynks.github.io.svg?branch=development)](https://travis-ci.org/objlynks/objlynks.github.io)
 
 This portfolio website (SPA), designed with Angular.
 
